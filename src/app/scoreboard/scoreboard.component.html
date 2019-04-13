@@ -1,0 +1,16 @@
+<p>
+  scoreboard works!
+</p>
+
+<button (click)="incrementHome()">Increment Home</button>
+<button (click)="decrementHome()">Decrement Home</button>
+
+<button (click)="incrementAway()">Increment Away</button>
+<button (click)="decrementAway()">Decrement Away</button>
+
+<div>Current Game</div>
+<p></p>
+<div>Away: {{awayScore$}} : Home: {{homeScore$}}</div>
+
+
+<button (click)="reset()">Reset Counter</button>
